@@ -14,9 +14,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Project src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqhB6oels3yCLW6CIHxj2iY8lLrXA5ReMbWO10uc3mM23XVByB" title="ABUGOSH SOCCER GAME" goal="change the world" 
-        activity="football game in tel aviv" budget="200$"/>
-
+        <Project src="http://www.imave.org/wp-content/uploads/logo-Qualita.jpg" title="Qualita" goal="French children meet israeli ones and play football together." 
+        activity="Activity: football game in tel aviv" participant="Number of Participant: 22"/>
       </div>
     );
   }
