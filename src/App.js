@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import "./App.css";
-import ProjectListPage from "./ProjectListPage";
+import NewProjectPage from "./NewProjectPage";
 
 class App extends Component {
   render() {
@@ -20,6 +20,9 @@ class App extends Component {
                 <NavItem eventKey={1} href="#">
                   Projects
                 </NavItem>
+                <NavItem eventKey={2} href="#">
+                  New Project
+                </NavItem>
               </Nav>
               <Nav pullRight>
                 <NavItem eventKey={1} href="#">
@@ -31,7 +34,7 @@ class App extends Component {
         </header>
 
         <main className="App__main">
-          <ProjectListPage />
+          <NewProjectPage />
         </main>
 
         <footer id="myFooter" className="footer">
