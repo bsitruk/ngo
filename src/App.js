@@ -29,7 +29,6 @@ class App extends Component {
             </Navbar.Collapse>
           </Navbar>
         </header>
-
         <main className="App__main">
           <ProjectListPage />
         </main>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Project.css";
+import Mybutton from "../Component/button";
 
 class Project extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ class Project extends Component {
     render() {
         return (
 
-            <div class="col-xs-12 col-sm-4">
+            <div >
                 <div class="card">
                     <a class="img-card" href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
                         <img src={this.props.src} />
@@ -20,7 +21,7 @@ class Project extends Component {
 
                         </h4>
                         <p class="goal">
-                            {this.props.goal} {this.props.activity}
+                            {this.props.goal}
                         </p>
                         <p class="activity">
                             {this.props.activity}
@@ -29,7 +30,7 @@ class Project extends Component {
                             {this.props.participant}
                         </p>
                     </div>
-                    <a href="#" class="btn btn-primary">JOIN</a>
+                    <Mybutton classes="cardBtn btn btn-default btn-lg" text="JOIN"></Mybutton>
                 </div>
             </div>
         );
