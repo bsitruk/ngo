@@ -1,28 +1,40 @@
 {
-  "projects": [
+  "events": [
     {
-      "ngo": "super ngo",
-      "activity": "football",
-      "description": "Hello worlds",
+      "title": "Jaffa Institute’s Approach",
+      "activity": "Volley",
+      "description": "The more, the merrier ! Come with us celebrate July birthdays with a beach volley game ",
       "id": 1
     },
     {
-      "ngo": "hello",
-      "activity": "football",
-      "description": "hello",
+      "title": "Qualita",
+      "activity": "Football",
+      "description": "Who is in for a football match with french kids ? Tips : Winners will have some croissants ! Miam ! ",
       "id": 2
     },
     {
-      "ngo": "ngo2",
-      "activity": "football",
-      "description": "I dont know\n",
+      "title": "ASSAF ",
+      "activity": "Basketball",
+      "description": "Do you want to share some of your time with refugee kids and show them who will be the next Michael Jordan ? ",
       "id": 3
     },
     {
-      "ngo": "jdhfojsdf",
-      "activity": "football",
-      "description": "sadfsgs",
+      "title": "The Lone Soldier Center",
+      "activity": "Volley",
+      "description": "Wanna meet Lone Soldier, say them thank you and share a volleyball game with them ? ",
       "id": 4
+    },
+    {
+      "title": "Chechniya 100",
+      "activity": "Football",
+      "description": "LGBT israeli community wants to play football, who wanna join ?",
+      "id": 5
+    },
+    {
+      "title": "hello",
+      "activity": "football",
+      "description": "world",
+      "id": 6
     }
   ]
 }

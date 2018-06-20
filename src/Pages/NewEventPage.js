@@ -11,10 +11,10 @@ import {
 import { Redirect } from "react-router-dom";
 import axios from "axios";
 
-class NewProjectPage extends Component {
+class NewEventPage extends Component {
   state = {
-    toProjects: false,
-    ngo: '',
+    toEvents: false,
+    title: '',
     activity: 'football',
     description: ''
   }
@@ -28,18 +28,18 @@ class NewProjectPage extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault()
-    const url = 'http://localhost:3001/projects'
-    const { ngo, activity, description } = this.state
-    axios.post(url, {ngo, activity, description}).then(() =>{
+    const url = 'http://localhost:3001/events'
+    const { title, activity, description } = this.state
+    axios.post(url, {title, activity, description}).then(() =>{
       this.setState({
-        toProjects: true
+        toEvents: true
       })
     })
   }
 
   render() {
-    if (this.state.toProjects) {
-      return <Redirect to="/projects"></Redirect>
+    if (this.state.toEvents) {
+      return <Redirect to="/events"></Redirect>
     }
     return (
       <Grid>
@@ -50,7 +50,7 @@ class NewProjectPage extends Component {
               Who are you ?
             </Col>
             <Col sm={10}>
-              <FormControl type="text" name='ngo' value={this.state.ngo} onChange={this.handleChange} />
+              <FormControl type="text" name='title' value={this.state.title} onChange={this.handleChange} />
             </Col>
           </FormGroup>
 
@@ -92,4 +92,4 @@ class NewProjectPage extends Component {
   }
 }
 
-export default NewProjectPage;
+export default NewEventPage;

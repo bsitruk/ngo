@@ -9,7 +9,7 @@ class Mybutton extends Component {
 
     render() {
         return (
-            <button type="button" className={this.props.classes}>{this.props.text}</button>
+            <button type="button" className={this.props.classes}>{this.props.children}</button>
         );
     }
 }

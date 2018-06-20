@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./App.css";
-import NewProjectPage from "./NewProjectPage";
-import ProjectListPage from "./ProjectListPage";
-import About from "./about/about";
+import NewEventPage from "./Pages/NewEventPage";
+import EventListPage from "./Pages/EventListPage";
+import HomePage from "./Pages/HomePage";
 
 
 class App extends Component {
@@ -23,10 +23,10 @@ class App extends Component {
               <Navbar.Collapse>
                 <Nav>
                   <NavItem>
-                    <Link to="/projects">Projects</Link>
+                    <Link to="/events">Events</Link>
                   </NavItem>
                   <NavItem eventKey={2}>
-                    <Link to="/new-project">New Project</Link>
+                    <Link to="/new-event">New Event</Link>
                   </NavItem>
                 </Nav>
                 <Nav pullRight>
@@ -37,9 +37,9 @@ class App extends Component {
           </header>
 
           <main className="App__main">
-            <Route exact path="/" component={About}/> 
-            <Route path="/projects" component={ProjectListPage}/>
-            <Route path="/new-project" component={NewProjectPage}/>
+            <Route exact path="/" component={HomePage}/> 
+            <Route path="/events" component={EventListPage}/>
+            <Route path="/new-event" component={NewEventPage}/>
           </main>
 
           <footer id="myFooter" className="footer">
@@ -53,7 +53,7 @@ class App extends Component {
                       <a href="#">Home</a>
                     </li>
                     <li>
-                      <a href="#">Sign up</a>
+                      <a href="#">Sign Up</a>
                     </li>
                     <li>
                       <a href="#">Downloads</a>
@@ -67,7 +67,7 @@ class App extends Component {
                       <a href="#">Company Information</a>
                     </li>
                     <li>
-                      <a href="#">Contact us</a>
+                      <a href="#">Contact Us</a>
                     </li>
                     <li>
                       <a href="#">Reviews</a>
@@ -81,7 +81,7 @@ class App extends Component {
                       <a href="#">FAQ</a>
                     </li>
                     <li>
-                      <a href="#">Help desk</a>
+                      <a href="#">Help Desk</a>
                     </li>
                     <li>
                       <a href="#">Forums</a>
