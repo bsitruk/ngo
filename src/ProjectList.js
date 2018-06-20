@@ -7,25 +7,25 @@ let projects = [
     title: "my project",
     goal: "description",
     activity: "activity",
-    budget: "budget"
+    participant:"participant"
   },
   {
     title: "my project",
     goal: "description",
     activity: "activity",
-    budget: "budget"
+    participant:"participant"
   },
   {
     title: "my project",
     goal: "description",
     activity: "activity",
-    budget: "budget"
+    participant:"participant"
   },
   {
     title: "my project",
     goal: "description",
     activity: "activity",
-    budget: "budget"
+    participant:"participant"
   }
 ];
 

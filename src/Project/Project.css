@@ -98,3 +98,8 @@ body {
     font-weight:600;
     text-transform: uppercase
   }
+  .cardBtn{
+      border-radius:5%;
+      margin-bottom: 5px;
+      background-color:white;
+  }

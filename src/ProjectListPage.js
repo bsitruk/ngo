@@ -5,6 +5,7 @@ class ProjectListPage extends Component {
   render() {
     return (
       <div>
+        <h1>Project in Progress </h1>
         <ProjectList></ProjectList>
       </div>
     );
