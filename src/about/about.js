@@ -14,12 +14,10 @@ class About extends Component {
                         <div class=" quote col-md-6">
 
                             <p class="quoteCeo">
-                            N-GO
- has the goal to connect and organize meetings with different NGO around different sport activities.Each
- NGO joinning us has the opportunity to choose between join a project already existing or come with a new idea.Our
- goal is to unify and connect people with different differences through the sport acitivty because sport is the only thing with war able to create such nation unify.
-                                <br /> Join us! Create Unity - Change the World! :)"<br />
-                                <button type="button" class="btn btn-success btn-block bigButton">Join a project</button>
+                            Our mission is to connect National Government Organization's through the means of shared sporting events. Each
+ NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places. 
+                                <br /> Join us today! Create Unity - Change the World! :)"<br />
+                                <button type="button" class="btn btn-success btn-block bigButton">Join an Event</button>
                                 </p>
 
                         </div>
@@ -36,7 +34,7 @@ class About extends Component {
                             <p class="rightbox">
                             “We
  become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
- <button type="button" class="btn btn-success btn-block bigButton">Create a project</button>
+ <button type="button" class="btn btn-success btn-block bigButton">Create an Event</button>
                             </p>
                         </div>
                     </div>
