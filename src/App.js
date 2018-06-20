@@ -53,7 +53,7 @@ class App extends Component {
                       <a href="#">Home</a>
                     </li>
                     <li>
-                      <a href="#">Sign up</a>
+                      <a href="#">Sign Up</a>
                     </li>
                     <li>
                       <a href="#">Downloads</a>
@@ -67,7 +67,7 @@ class App extends Component {
                       <a href="#">Company Information</a>
                     </li>
                     <li>
-                      <a href="#">Contact us</a>
+                      <a href="#">Contact Us</a>
                     </li>
                     <li>
                       <a href="#">Reviews</a>
@@ -81,7 +81,7 @@ class App extends Component {
                       <a href="#">FAQ</a>
                     </li>
                     <li>
-                      <a href="#">Help desk</a>
+                      <a href="#">Help Desk</a>
                     </li>
                     <li>
                       <a href="#">Forums</a>
