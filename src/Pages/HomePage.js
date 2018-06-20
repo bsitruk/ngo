@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-<<<<<<< HEAD:src/Pages/HomePage.js
 import "./HomePage.css";
-=======
-import "./about.css";
-import Mybutton from "../Component/button.js" ;
->>>>>>> 6d33685108b24ce01062943d74994ae2796a84d6:src/about/about.js
+import Mybutton from "../Component/button" ;
 
 class HomePage extends Component {
     constructor(props) {
@@ -22,7 +18,7 @@ class HomePage extends Component {
                             Our mission is to connect National Government Organization's through the means of shared sporting events. Each
  NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places. 
                                 <br /> Join us today! Create Unity - Change the World! :)"<br /><br/>
-                                <Mybutton classes="btn btn-primary btn-lg active">Join an Event</Mybutton>
+                                <Mybutton classes="btn btn-primary btn-lg">Join an Event</Mybutton>
                                 </p>
 
                         </div>
@@ -44,7 +40,7 @@ class HomePage extends Component {
                             <p class="rightbox">
                             “We
  become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
- <br/><br/><Mybutton classes ="btn btn-primary btn-lg active">Create an Event</Mybutton>
+ <br/><br/><Mybutton classes ="btn btn-primary btn-lg">Create an Event</Mybutton>
                             </p>
                         </div>
                     </div>

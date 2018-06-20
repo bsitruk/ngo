@@ -22,7 +22,7 @@ class Event extends Component {
             <p className="goal">{this.props.description}</p>
             <p className="activity">{this.props.activity}</p>
           </div>
-          <Mybutton classes="cardBtn btn btn-default btn-lg" text="JOIN" />
+          <Mybutton classes="cardBtn btn btn-default btn-lg">JOIN</Mybutton>
         </div>
       </div>
     );
