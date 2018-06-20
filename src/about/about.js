@@ -14,13 +14,12 @@ class About extends Component {
                         <div class=" quote col-md-6">
 
                             <p class="quoteCeo">
-                            N-GO
- has the goal to connect and organize meetings with different NGO around different sport activities.Each
- NGO joinning us has the opportunity to choose between join a project already existing or come with a new idea.Our
- goal is to unify and connect people with different differences through the sport acitivty because sport is the only thing with war able to create such nation unify.
+                                N-GO has the goal to connect and organize meetings with different NGO around different sport activities.Each
+NGO joinning us has the opportunity to choose between join a project already existing or come with a new idea.Our
+goal is to unify and connect people with different differences through the sport acitivty because sport is the only thing with war able to create such nation unify.
                                 <br /> Join us! Create Unity - Change the World! :)"<br />
                                 <button type="button" class="btn btn-success btn-block bigButton">Join a project</button>
-                                </p>
+                            </p>
 
                         </div>
                         <div class="col-md-6">
@@ -31,12 +30,15 @@ class About extends Component {
                     </div>
 
                     <div class="row mapathonOk">
-                        <div class="col-md-6 mapathonpic"></div>
+                        <div class="col-md-6 mapathonpic">
+                            <div class="picture">
+                                <img class="football" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/815/cached.offlinehbpl.hbpl.co.uk/news/OVE/WEB_Shell_football_pitch-20140912061615157.jpg" />
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <p class="rightbox">
-                            “We
- become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
- <button type="button" class="btn btn-success btn-block bigButton">Create a project</button>
+                                “We become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
+                                <button type="button" class="btn btn-success btn-block bigButton">Create a project</button>
                             </p>
                         </div>
                     </div>
