@@ -1,17 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
 }
 
 .App-title {
@@ -22,7 +18,103 @@
   font-size: large;
 }
 
+.App__main {
+  flex-grow: 1
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.header__nav {
+  background-image: none;
+  background-color: #ffffff
+}
+
+/* Footer */
+#myFooter {
+  position: relative;
+  overflow: hidden;
+  padding-top: 15px;
+}
+
+.footer__bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  filter: grayscale(100%);
+  opacity: .1;
+  pointer-events: none;
+}
+
+#myFooter ul{
+list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5{
+font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a{
+color:black;
+text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+text-decoration: none;
+color:black;
+}
+
+#myFooter .myCols{
+text-align: center;
+}
+
+#myFooter .social-networks{
+text-align: center;
+padding-top: 30px;
+padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+  font-size: 32px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+color:#0077e2;
+}
+
+#myFooter .google:hover{
+color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+color: #00aced;
+}
+
+
+.content{
+flex: 1 0 auto;
+-webkit-flex: 1 0 auto;
+min-height: 200px;
+}
+
+#myFooter{
+flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
 }
