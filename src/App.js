@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import "./App.css";
 import ProjectListPage from "./ProjectListPage";
+import About from "./about/about";
+
 
 class App extends Component {
   render() {
@@ -30,7 +32,7 @@ class App extends Component {
           </Navbar>
         </header>
         <main className="App__main">
-          <ProjectListPage />
+          <About />
         </main>
 
         <footer id="myFooter" className="footer">

@@ -1,0 +1,48 @@
+.quotebox{
+    padding: 30px;
+    background: #fafafa;
+}
+
+.mapathonOk{
+    background: #fafafa;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.mapathonpic{
+    background:url("https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/815/cached.offlinehbpl.hbpl.co.uk/news/OVE/WEB_Shell_football_pitch-20140912061615157.jpg");
+    height: 345px;
+    border-radius: 75px;
+    background-size: cover;
+}
+
+.bigButton{
+    font-size:18px;
+    border-radius: 30px;
+    
+}
+
+.football{
+    height: 345px;
+    border-radius: 75px;
+}
+.quoteCeo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 2.2;
+    font-style: italic;
+
+}
+.rightbox{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 2.2;
+    font-style: italic;
+    position:relative;
+    top:85px;
+}
+
