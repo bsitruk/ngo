@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Project from './Project/Project.js'
 import './App.css';
 import ProjectList from './ProjectList';
 
