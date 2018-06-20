@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./about.css";
+import "./HomePage.css";
 
-class About extends Component {
+class HomePage extends Component {
     constructor(props) {
         super(props);
     }
@@ -44,4 +44,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default HomePage;
