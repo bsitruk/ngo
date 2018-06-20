@@ -26,6 +26,18 @@ let projects = [
     goal: "description",
     activity: "activity",
     participant:"participant"
+  },
+  {
+    title: "my project",
+    goal: "description",
+    activity: "activity",
+    participant:"participant"
+  },
+  {
+    title: "my project",
+    goal: "description",
+    activity: "activity",
+    participant:"participant"
   }
 ];
 
