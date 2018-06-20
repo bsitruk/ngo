@@ -1,5 +1,10 @@
 import React, { Component } from "react";
+<<<<<<< HEAD:src/Pages/HomePage.js
 import "./HomePage.css";
+=======
+import "./about.css";
+import Mybutton from "../Component/button.js" ;
+>>>>>>> 6d33685108b24ce01062943d74994ae2796a84d6:src/about/about.js
 
 class HomePage extends Component {
     constructor(props) {
@@ -16,25 +21,30 @@ class HomePage extends Component {
                             <p class="quoteCeo">
                             Our mission is to connect National Government Organization's through the means of shared sporting events. Each
  NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places. 
-                                <br /> Join us today! Create Unity - Change the World! :)"<br />
-                                <button type="button" class="btn btn-success btn-block bigButton">Join an Event</button>
+                                <br /> Join us today! Create Unity - Change the World! :)"<br /><br/>
+                                <Mybutton classes="btn btn-primary btn-lg active">Join an Event</Mybutton>
                                 </p>
 
                         </div>
                         <div class="col-md-6">
                             <div class="picture">
-                                <img class="football" src="http://www.whoateallthepies.tv/wp-content/uploads/2014/06/PA-19485339.jpg" />
+                                <img class="football" src="http://blogs.reuters.com/photographers-blog/files/2014/05/34Q9295xx.jpg" />
                             </div>
                         </div>
                     </div>
 
                     <div class="row mapathonOk">
-                        <div class="col-md-6 mapathonpic"></div>
+                        <div class="col-md-6 mapathonpic">
+                        <div class="picture">
+                                <img class="football" src="http://wp.patheos.com.s3.amazonaws.com/blogs/paperbacktheology/files/2013/06/playing-baseball.jpg" />
+                            </div>
+                            </div>
+
                         <div class="col-md-6">
                             <p class="rightbox">
                             “We
  become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
- <button type="button" class="btn btn-success btn-block bigButton">Create an Event</button>
+ <br/><br/><Mybutton classes ="btn btn-primary btn-lg active">Create an Event</Mybutton>
                             </p>
                         </div>
                     </div>
