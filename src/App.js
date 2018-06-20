@@ -42,9 +42,9 @@ class App extends Component {
 
           <footer id="myFooter" className="footer">
             <img className="footer__bg" src="/assets/maxresdefault.jpg" />
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-3 myCols">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-3 myCols">
                   <h5>Get started</h5>
                   <ul>
                     <li>
@@ -58,7 +58,7 @@ class App extends Component {
                     </li>
                   </ul>
                 </div>
-                <div class="col-sm-3 myCols">
+                <div className="col-sm-3 myCols">
                   <h5>About us</h5>
                   <ul>
                     <li>
@@ -72,7 +72,7 @@ class App extends Component {
                     </li>
                   </ul>
                 </div>
-                <div class="col-sm-3 myCols">
+                <div className="col-sm-3 myCols">
                   <h5>Support</h5>
                   <ul>
                     <li>
@@ -86,7 +86,7 @@ class App extends Component {
                     </li>
                   </ul>
                 </div>
-                <div class="col-sm-3 myCols">
+                <div className="col-sm-3 myCols">
                   <h5>Legal</h5>
                   <ul>
                     <li>
@@ -102,15 +102,15 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <div class="social-networks">
-              <a href="#" class="twitter">
-                <i class="fa fa-twitter" />
+            <div className="social-networks">
+              <a href="#" className="twitter">
+                <i className="fa fa-twitter" />
               </a>
-              <a href="#" class="facebook">
-                <i class="fa fa-facebook-official" />
+              <a href="#" className="facebook">
+                <i className="fa fa-facebook-official" />
               </a>
-              <a href="#" class="google">
-                <i class="fa fa-google-plus" />
+              <a href="#" className="google">
+                <i className="fa fa-google-plus" />
               </a>
             </div>
           </footer>

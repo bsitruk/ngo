@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "ngo": "super ngo",
+      "activity": "football",
+      "description": "Hello worlds",
+      "id": 1
+    },
+    {
+      "ngo": "hello",
+      "activity": "football",
+      "description": "hello",
+      "id": 2
+    },
+    {
+      "ngo": "ngo2",
+      "activity": "football",
+      "description": "I dont know\n",
+      "id": 3
+    }
+  ]
+}
