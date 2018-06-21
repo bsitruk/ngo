@@ -15,9 +15,7 @@ class App extends Component {
           <header className="App-header">
             <Navbar collapseOnSelect className="header__nav">
               <Navbar.Header>
-                <Navbar.Brand>
-                  <Link to="/">N-GO</Link>
-                </Navbar.Brand>
+                  <Link to="/"><img class="logo" src="assets/Logo.PNG"/></Link>
                 <Navbar.Toggle />
               </Navbar.Header>
               <Navbar.Collapse>

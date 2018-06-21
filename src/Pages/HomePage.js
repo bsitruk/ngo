@@ -10,11 +10,15 @@ class HomePage extends Component {
     render() {
         return (
             <div>
+                 <div class="Mainpage">
+            <h1 class="Heading">WHERE THERE IS UNITY THERE IS ALWAYS VICTORY
+            <br/><Mybutton classes="btn btn-primary btn-lg"></Mybutton></h1>
+            </div>
                 <div class="container">
                     <div class="row text-center quotebox">
                         <div class=" quote col-md-6">
 
-                            <p class="quoteCeo">
+                            <p class="subText">
                             Our mission is to connect National Government Organization's through the means of shared sporting events. Each
  NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places. 
                                 <br /> Join us today! Create Unity - Change the World! :)"<br /><br/>
@@ -29,8 +33,8 @@ class HomePage extends Component {
                         </div>
                     </div>
 
-                    <div class="row mapathonOk">
-                        <div class="col-md-6 mapathonpic">
+                    <div class="row quote">
+                        <div class="col-md-6 secondImage">
                         <div class="picture">
                                 <img class="football" src="http://wp.patheos.com.s3.amazonaws.com/blogs/paperbacktheology/files/2013/06/playing-baseball.jpg" />
                             </div>

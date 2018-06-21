@@ -3,11 +3,11 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.logo {
+  height: 50px;
 }
 
 .App-title {
@@ -21,6 +21,9 @@
 .App__main {
   flex-grow: 1
 }
+.App-header{
+height: 30px;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -29,7 +32,9 @@
 
 .header__nav {
   background-image: none;
-  background-color: #ffffff
+  background-color: white;
+  width:100%;
+
 }
 
 /* Footer */
