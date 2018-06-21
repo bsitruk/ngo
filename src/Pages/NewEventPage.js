@@ -6,8 +6,7 @@ import {
   Col,
   ControlLabel,
   FormGroup,
-  FormControl,
-  Button
+  FormControl
 } from "react-bootstrap";
 import { Redirect } from "react-router-dom";
 import axios from "axios";
@@ -44,9 +43,9 @@ class NewEventPage extends Component {
     }
     return (
       <Grid>
-      <div class = "division">
-        <h1 class = "header">Create Event</h1>
-        </div>
+      <Col smOffset={2} className = "division">
+        <h1 className = "header">Create Event</h1>
+        </Col>
     
           <Form horizontal onSubmit={this.handleSubmit}>
           <FormGroup controlId="formHorizontalNgo">

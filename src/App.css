@@ -35,7 +35,7 @@ height: 51px;
   background-color: white;
   width:100%;
   position: fixed;
-  z-index:99999;
+  z-index:10;
 }
 
 /* Footer */
