@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import "./HomePage.css";
-<<<<<<< HEAD
 import Mybutton from "../Component/button";
-=======
-import Mybutton from "../Component/button" ;
-
->>>>>>> 1c410c9780663c296cd702a0b963d2ad26004c2d
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class HomePage extends Component {
     constructor(props) {
@@ -23,23 +18,12 @@ class HomePage extends Component {
                     <div class="row text-center quotebox">
                         <div class=" quote col-md-6">
 
-<<<<<<< HEAD
                             <p class="subText">
-                                Our mission is to connect National Government Organization's through the means of shared sporting events. Each
-     NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places.
-                                <br /> Join us today! Create Unity - Change the World! :)"<br /><br />
-
-                                <form action="/events">
-                                    <button type="link" class="btn btn-primary btn-lg">Join an Event</button>
-                                </form>
-=======
-                            <p class="quoteCeo">
                             Our mission is to connect National Government Organization's through the means of shared sporting events. Each
  NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places. 
                                 <br /> Join us today! Create Unity - Change the World! :)"<br /><br/>
                             
-                                <Mybutton classes="btn btn-lg active btn-primary"> <Link to="/events">Join an Event</Link> </Mybutton>
->>>>>>> 1c410c9780663c296cd702a0b963d2ad26004c2d
+                                <Mybutton classes="btn btn-lg btn-primary"> <Link to="/events">Join an Event</Link> </Mybutton>
                             </p>
                         </div>
                         <div class="col-md-6">
@@ -58,19 +42,10 @@ class HomePage extends Component {
 
                         <div class="col-md-6">
                             <p class="rightbox">
-<<<<<<< HEAD
-                                “We
-     become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
- <br />
-                                <br />                          <form action="/new-event">
-                                    <button class="btn btn-primary btn-lg">Create an Event</button>
-                                </form>
-=======
                             “We
  become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
  <br/>
- <br/>                          <Mybutton classes="btn btn-lg active btn-primary"> <Link to="/new-event">Create an Event</Link> </Mybutton>
->>>>>>> 1c410c9780663c296cd702a0b963d2ad26004c2d
+ <br/>                          <Mybutton classes="btn btn-lg btn-primary"> <Link to="/new-event">Create an Event</Link> </Mybutton>
                             </p>
                         </div>
                     </div>

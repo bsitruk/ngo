@@ -41,11 +41,11 @@
 
 .Mainpage{
     height:100vh;
-    width:100vw;
     background-image: url("https://experiencelife.com/wp-content/uploads/2014/08/Kids-Sports.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 724px;
 }
 
 
