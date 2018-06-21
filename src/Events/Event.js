@@ -8,7 +8,7 @@ class Event extends Component {
   }
 
   render() {
-    const img_src = `assets/${this.props.activity}.jpg`;
+    const img_src = `assets/${this.props.activity.toLowerCase()}.jpg`;
     return (
       <div className="card__wrapper">
         <div className="card">
