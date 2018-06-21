@@ -63,7 +63,7 @@ class NewEventPage extends Component {
               name='activity' value={this.state.activity} onChange={this.handleChange}>
                 <option value="football">Football</option>
                 <option value="basketball">Basketball</option>
-                <option value="volley">Volley</option>
+                <option value="volleyball">Volleyball</option>
               </FormControl>
             </Col>
           </FormGroup>

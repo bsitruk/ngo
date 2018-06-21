@@ -15,7 +15,7 @@ class HomePage extends Component {
                 <div class="Mainpage">
                     <h1 class="Heading">WHERE THERE IS UNITY THERE IS ALWAYS VICTORY
             <br /><Mybutton classes=" communityBtn btn btn-primary btn-lg">Join our Community of NGO'S</Mybutton>
-            </h1>
+                    </h1>
                 </div>
                 <div class="container">
                     <div class="row text-center quotebox">
@@ -23,9 +23,9 @@ class HomePage extends Component {
                             <p class="subText">
                                 Our mission is to connect National Government Organization's through the means of shared sporting events. Each
      NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places.
-                                <br /> Join us today! Create Unity - Change the World! :)"<br /><br/>
+                                <br /> Join us today! Create Unity - Change the World! :)"<br /><br />
 
-                                 <Mybutton classes="btn btn-lg"> <Link to="/events">Join an Event</Link> </Mybutton>
+                                <Mybutton classes="btn btn-lg"> <Link to="/events">Join an Event</Link> </Mybutton>
                             </p>
                         </div>
                         <div class="col-md-6">
@@ -45,13 +45,13 @@ class HomePage extends Component {
                         <div class="col-md-6">
                             <p class="rightbox">
 
-                                “We
-     become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
+                                “Sport has the power to change the world. It has the power to inspire. It has the power to unite people in a way that little else does. It speaks to youth in a language they understand. Sport can create hope where once there was only despair.
+                                 It is more powerful than government in breaking down racial barriers.”.– Nelson Mandela
  <br />
-                                <br />                           
+                                <br />
                                 <Mybutton classes="btn btn-lg"> <Link to="/new-events">Create an Event</Link> </Mybutton>
 
-                            
+
                             </p>
                         </div>
                     </div>
