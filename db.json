@@ -2,31 +2,31 @@
   "events": [
     {
       "title": "Jaffa Institute’s Approach",
-      "activity": "Volley",
+      "activity": "volley",
       "description": "The more, the merrier ! Come with us celebrate July birthdays with a beach volley game ",
       "id": 1
     },
     {
       "title": "Qualita",
-      "activity": "Football",
+      "activity": "football",
       "description": "Who is in for a football match with french kids ? Tips : Winners will have some croissants ! Miam ! ",
       "id": 2
     },
     {
       "title": "ASSAF ",
-      "activity": "Basketball",
+      "activity": "basketball",
       "description": "Do you want to share some of your time with refugee kids and show them who will be the next Michael Jordan ? ",
       "id": 3
     },
     {
       "title": "The Lone Soldier Center",
-      "activity": "Volley",
+      "activity": "volley",
       "description": "Wanna meet Lone Soldier, say them thank you and share a volleyball game with them ? ",
       "id": 4
     },
     {
       "title": "Chechniya 100",
-      "activity": "Football",
+      "activity": "football",
       "description": "LGBT israeli community wants to play football, who wanna join ?",
       "id": 5
     },

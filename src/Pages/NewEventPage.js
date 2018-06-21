@@ -76,6 +76,7 @@ class NewEventPage extends Component {
               <FormControl
                 componentClass="textarea"
                 placeholder="Description"
+                rows={8}
                 name='description' value={this.state.description} onChange={this.handleChange}
               />
             </Col>
