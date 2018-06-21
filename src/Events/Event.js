@@ -15,6 +15,9 @@ class Event extends Component {
           <a
             className="img-card">
             <img src={img_src} />
+            <div class="overlay">
+              <div class="textOver">{this.props.activity}</div>
+            </div>
           </a>
           <div className="card-content">
             <h4 className="card-title">{this.props.title}</h4>

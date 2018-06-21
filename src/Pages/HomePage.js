@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./HomePage.css";
 import Mybutton from "../Component/button";
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class HomePage extends Component {
     constructor(props) {
@@ -12,7 +13,8 @@ class HomePage extends Component {
             <div>
                 <div class="Mainpage">
                     <h1 class="Heading">WHERE THERE IS UNITY THERE IS ALWAYS VICTORY
-            <br /><Mybutton classes=" communityBtn btn btn-primary btn-lg">Join our Community of NGO'S</Mybutton></h1>
+            <br /><Mybutton classes=" communityBtn btn btn-primary btn-lg">Join our Community of NGO'S</Mybutton>
+            </h1>
                 </div>
                 <div class="container">
                     <div class="row text-center quotebox">

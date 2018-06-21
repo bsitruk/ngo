@@ -34,7 +34,8 @@ height: 30px;
   background-image: none;
   background-color: white;
   width:100%;
-
+  position: fixed;
+  z-index:1;
 }
 
 /* Footer */
@@ -123,3 +124,5 @@ min-height: 200px;
 flex: 0 0 auto;
   -webkit-flex: 0 0 auto;
 }
+
+
