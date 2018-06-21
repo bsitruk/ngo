@@ -71,6 +71,7 @@ h1.heading {
   border-top-right-radius: 2px;
   display: block;
   overflow: hidden;
+  z-index: 1;
 }
 .img-card img {
   width: 100%;
@@ -112,4 +113,34 @@ h1.heading {
   position: absolute;
   bottom: 15px;
   width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightgray;
+}
+
+.img-card:hover .overlay{
+  opacity: 0.7;
+}
+
+.textOver {
+  color: #0B87A1;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 800;
+
 }
