@@ -14,7 +14,7 @@ class HomePage extends Component {
                 <div class="Mainpage">
                     <h1 class="Heading">WHERE THERE IS UNITY THERE IS ALWAYS VICTORY
             <br /><Mybutton classes=" communityBtn btn btn-primary btn-lg">Join our Community of NGO'S</Mybutton>
-            </h1>
+                    </h1>
                 </div>
                 <div class="container">
                     <div class="row text-center quotebox">
@@ -44,10 +44,14 @@ class HomePage extends Component {
 
                         <div class="col-md-6">
                             <p class="rightbox">
-                            “We
- become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
- <br/>
- <br/>                          <Mybutton classes="btn btn-lg btn-primary"> <Link to="/new-event">Create an Event</Link> </Mybutton>
+
+                                “Sport has the power to change the world. It has the power to inspire. It has the power to unite people in a way that little else does. It speaks to youth in a language they understand. Sport can create hope where once there was only despair.
+                                 It is more powerful than government in breaking down racial barriers.”.– Nelson Mandela
+ <br />
+                                <br />
+                                <Mybutton classes="btn btn-lg"> <Link to="/new-events">Create an Event</Link> </Mybutton>
+
+
                             </p>
                         </div>
                     </div>
