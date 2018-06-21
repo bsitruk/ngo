@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Mybutton from "../Component/button"
 import {
   Grid,
   Form,
@@ -43,8 +44,11 @@ class NewEventPage extends Component {
     }
     return (
       <Grid>
-          <h1>Let's create a project together !</h1>
-        <Form horizontal onSubmit={this.handleSubmit}>
+      <div class = "division">
+        <h1 class = "header">Create Event</h1>
+        </div>
+    
+          <Form horizontal onSubmit={this.handleSubmit}>
           <FormGroup controlId="formHorizontalNgo">
             <Col componentClass={ControlLabel} sm={2}>
               Who are you ?
@@ -84,7 +88,7 @@ class NewEventPage extends Component {
 
           <FormGroup>
             <Col smOffset={2}>
-              <Button type="submit">Create</Button>
+              <Mybutton classes="btn btn-lg btn-primary" type="submit">Create</Mybutton>
             </Col>
           </FormGroup>
         </Form>{" "}

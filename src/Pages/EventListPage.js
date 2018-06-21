@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import EventList from "../Events/EventList";
 import JoinModal from "../Events/JoinModal";
 
@@ -24,7 +24,9 @@ class EventListPage extends Component {
   render() {
     return (
       <div>
-        <h1>Events in Progress </h1>
+      <div class = "division">
+      	<h1 class = "header">Events in Progress </h1>
+      	</div>
         <EventList handleClick={this.openModal} />
         <JoinModal
           show={this.state.showModal}
