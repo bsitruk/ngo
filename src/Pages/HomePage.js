@@ -49,7 +49,7 @@ class HomePage extends Component {
                                  It is more powerful than government in breaking down racial barriers.”.– Nelson Mandela
  <br />
                                 <br />
-                                <Mybutton classes="btn btn-lg"> <Link to="/new-events">Create an Event</Link> </Mybutton>
+                                <Mybutton classes="btn btn-lg"> <Link to="/new-event">Create an Event</Link> </Mybutton>
 
 
                             </p>
