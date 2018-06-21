@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./HomePage.css";
 import Mybutton from "../Component/button" ;
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class HomePage extends Component {
     constructor(props) {
         super(props);
@@ -22,9 +22,11 @@ class HomePage extends Component {
                             Our mission is to connect National Government Organization's through the means of shared sporting events. Each
  NGO has the opportunity to choose between joining an existing event and creating a new event. Through our platform, relationships and friendships will be formed in the most unlikely places. 
                                 <br /> Join us today! Create Unity - Change the World! :)"<br /><br/>
-                                <Mybutton classes="btn btn-primary btn-lg">Join an Event</Mybutton>
-                                </p>
-
+                                
+                                <form action="/events">
+                                <button type="link" class="btn btn-primary btn-lg">Join an Event</button>
+                                </form>
+                            </p>
                         </div>
                         <div class="col-md-6">
                             <div class="picture">
@@ -44,7 +46,10 @@ class HomePage extends Component {
                             <p class="rightbox">
                             “We
  become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
- <br/><br/><Mybutton classes ="btn btn-primary btn-lg">Create an Event</Mybutton>
+ <br/>
+ <br/>                          <form action="/new-event">
+                                <button  class="btn btn-primary btn-lg">Create an Event</button>
+                                </form>
                             </p>
                         </div>
                     </div>

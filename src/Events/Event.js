@@ -8,21 +8,22 @@ class Event extends Component {
   }
 
   render() {
+    const img_src = `assets/${this.props.activity}.jpg`
     return (
-      <div>
+      <div className="card__wrapper">
         <div className="card">
           <a
-            className="img-card"
-            href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"
-          >
-            <img src={this.props.src} />
+            className="img-card">
+            <img src={img_src} />
           </a>
           <div className="card-content">
             <h4 className="card-title">{this.props.title}</h4>
             <p className="goal">{this.props.description}</p>
             <p className="activity">{this.props.activity}</p>
           </div>
-          <Mybutton classes="cardBtn btn btn-default btn-lg">JOIN</Mybutton>
+          <div className="card__button">
+            <Mybutton classes="btn btn-default btn-lg">JOIN</Mybutton>
+          </div>
         </div>
       </div>
     );

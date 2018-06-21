@@ -24,7 +24,7 @@ class EventList extends Component {
     }
     return (
       <Grid>
-        <Row className="show-grid">
+        <Row className="show-grid display-flex">
           {this.state.events.map(event => (
             <Col xs={12} md={4} key={event.id}>
               <Event {...event} />

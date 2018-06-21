@@ -1,0 +1,22 @@
+.mybutton {
+    --color: #339ab0;
+    outline: none;
+    border: var(--color) 1px solid;
+    background-image: none;
+    border-radius: 0px;
+    background-color: transparent;
+    color: var(--color);
+    text-shadow: none;
+}
+
+.mybutton:hover, .mybutton:focus, .mybutton:active, .mybutton:active:hover, .mybutton:active:focus {
+    background-image: none;
+    outline: none;
+    background-color: var(--color);
+    color: #ffffff;
+    border-color: var(--color);
+}
+
+.mybutton:focus {
+    outline: none;
+}
