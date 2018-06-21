@@ -7,6 +7,7 @@
     background-color: transparent;
     color: var(--color);
     text-shadow: none;
+    box-shadow: none;
 }
 
 .mybutton:hover, .mybutton:focus, .mybutton:active, .mybutton:active:hover, .mybutton:active:focus {
