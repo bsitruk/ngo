@@ -35,17 +35,15 @@
     font-size: 18px;
     line-height: 2.2;
     font-style: italic;
-    position:relative;
-    top:85px;
 }
 
 .Mainpage{
     height:100vh;
-    width:100vw;
     background-image: url("https://experiencelife.com/wp-content/uploads/2014/08/Kids-Sports.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 724px;
 }
 
 

@@ -4,7 +4,6 @@ import Event from "./Event";
 import axios from 'axios'
 
 class EventList extends Component {
-
   state = {
     events: []
   }
@@ -27,7 +26,7 @@ class EventList extends Component {
         <Row className="show-grid display-flex">
           {this.state.events.map(event => (
             <Col xs={12} md={4} key={event.id}>
-              <Event {...event} />
+              <Event {...event} handleClick={this.props.handleClick(event.title)} />
             </Col>
           ))}
         </Row>
