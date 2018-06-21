@@ -42,7 +42,7 @@ class HomePage extends Component {
                             “We
  become not a melting pot but a beautiful mosaic. Different people, different beliefs, different yearnings, different hopes, different dreams.”
  <br/>
- <br/>                          <Mybutton classes="btn btn-lg active btn-primary"> <Link to="/events">Create an Event</Link> </Mybutton>
+ <br/>                          <Mybutton classes="btn btn-lg active btn-primary"> <Link to="/new-event">Create an Event</Link> </Mybutton>
                             </p>
                         </div>
                     </div>
