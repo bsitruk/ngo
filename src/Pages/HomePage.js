@@ -16,7 +16,7 @@ class HomePage extends Component {
             WHERE THERE IS UNITY THERE IS ALWAYS VICTORY
             <br />
             <Mybutton classes=" communityBtn btn btn-primary btn-lg">
-              Join our Community <br/>of NGO'S
+              Join our Community <br/> of NGO'S
             </Mybutton>
           </h1>
         </div>
