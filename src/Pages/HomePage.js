@@ -13,7 +13,7 @@ class HomePage extends Component {
             <div>
                 <div class="Mainpage">
                     <h1 class="Heading">WHERE THERE IS UNITY THERE IS ALWAYS VICTORY
-            <br /><Mybutton classes=" communityBtn btn btn-primary btn-lg">Join our Community of NGO'S</Mybutton>
+            <br /><Mybutton classes=" communityBtn btn btn-primary btn-lg">Join our Community <br/> of NGO'S</Mybutton>
                     </h1>
                 </div>
                 <div class="container">
